@@ -1,2 +1,27 @@
 @import '../../src/style/header/header';
+@import '../../src/style/all/all';
+@import '../../src/style/breakfast/breakfast';
+@import '../../src/style/coffee/coffee';
+@import '../../src/style/drink/drink';
+@import '../../src/style/sup/sup';
+@import '../../src/style/tea/tea';
+@import '../../src/style/salad/salad';
+@import '../../src/style/dessert/dessert';
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body,html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}

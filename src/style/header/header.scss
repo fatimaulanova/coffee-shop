@@ -1,6 +1,44 @@
 #header{
-
-  .header{
-    display: flex;
-  }
+  background: #F5F5F5;
+  .header-general{
+    margin-left: 100px;
+    &__head{
+      padding-top: 60px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__logo{
+      padding-left: 10px;
+    }
+    &__search{
+      margin-left: 50px;
+      input{
+        background: #ECEAEA;
+        border: 1px solid #ECEAEA;
+        width: 410px;
+        height: 55px;
+        font-size: 20px;
+        border-radius: 5px 0 0 5px;
+      }
+    }
+    &__btn{
+      margin-right: 116px;
+      button{
+        padding-top: -10px;
+        width: 57px;
+        height: 55px;
+        background: #E2D9BF;
+        border-radius: 0 11px 11px 0;
+        border: 1px solid #E2D9BF;
+      }
+    }
+    &__basket{
+      margin-right: 30px;
+    }
+    &__dark{
+        padding-right: 70px;
+    }
 }
+  }

@@ -1,0 +1,36 @@
+#all{
+  background: #F5F5F5;
+  .all-general{
+    margin-left: 100px;
+    &__gen{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 40px 125px 100px 1px;
+    }
+    &__gen2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: -40px 360px 10px 1px;
+    }
+    &__bg1{
+      margin-top: -10px;
+      margin-left: 4px;
+      width: 210px;
+      height: 29px;
+      background: #FFFFFF;
+      border-radius: 0   0 5px 5px;
+      a{
+        margin-left: 5px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+    }
+  }
+}
